@@ -7,7 +7,7 @@ st.subheader('注册时间: :yellow[2025-10-20]  |精神状态: :yellow[微疯]'
 st.subheader('当前教室: :blue[实训楼204]  |安全等级: :blue[危险]')
 
 st.markdown('# 展示美食')
-st.image("C:\\Users\\hqqx6\\Desktop\\33.jpg")
+st.image("https://th.bing.com/th/id/OIP.s6dpfSeTuglKhh1UbDEZDQHaE8?w=265&h=180&c=7&r=0&o=7&cb=12&pid=1.7&rm=3")
 
 st.subheader('🏖️能力展示')
 # 定义列布局，分成3列

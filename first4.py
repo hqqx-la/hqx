@@ -3,16 +3,16 @@ st.set_page_config(page_title='音乐歌单',page_icon='🐈')
 music= [{'url':"https://music.163.com/song/media/outer/url?id=461811019.mp3",
            'photo':'https://p2.music.126.net/RzeeuhXoVhvrSgRkkF9vig==/18734578627494886.jpg?param=330y280',
            'name':'歌名:屋顶 歌手👨‍🎤:周杰伦 时长⏰︎:2:32'},
-          {'url': "https://music.163.com/song/media/outer/url?id=2736682437.mp3",
+          {'url': "https://music.163.com/song/media/outer/url?id=1811408619.mp3",
            'photo':'https://p1.music.126.net/SvT-8cEpiT0UrlEKzqmSJA==/109951171874589305.jpg?param=330y280',
-           'name':'歌名:i like u like 歌手👨‍🎤:时代少年团 时长⏰︎:3:05'},
+           'name':'歌名:关机又关机 歌手👨‍🎤:Yang 时长⏰︎:3:01'},
           {'url':"https://music.163.com/song/media/outer/url?id=1330348068.mp3",
            'photo':'https://p2.music.126.net/diGAyEmpymX8G7JcnElncQ==/109951163699673355.jpg?param=330y280',
            'name':'歌名:起风了 歌手👨‍🎤:买辣椒也用券 时长⏰︎:5:25'}
           ]
 import streamlit as st
 import random
-st.subheader("🫶音乐歌单")
+st.subheader("🎶音乐歌单")
 if'ind' not in st.session_state:
     st.session_state['ind']=0
     
